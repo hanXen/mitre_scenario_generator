@@ -6,9 +6,8 @@ from stix2 import Filter
 from stix2 import MemoryStore
 from stix2.utils import get_type_from_id
 
-
 G_FILE_PATH = './data/apt_group.json'
-G_TECH_FILE_PATH = 'apt_group_techs.json'
+G_TECH_FILE_PATH = 'apt_group_techs.yaml'
 
 
 def get_data_from_branch(domain, branch="master"):
@@ -45,22 +44,23 @@ def get_techniques_by_group_software(thesrc, group_stix_id):
         Filter('id', 'in', [r.target_ref for r in software_uses])
     ])
 
+
 src = get_data_from_branch("enterprise-attack")
 
 if not os.path.isfile(G_FILE_PATH):
     get_intrusion_set(src)
-
-APT_GROUP_LIST = json.loads(open("apt_group.json", "r", encoding='utf-8').read())
+APT_GROUP_LIST = json.loads(open(G_FILE_PATH, "r", encoding='utf-8').read())
 
 data = {}
 cnt = 0
 for name, intrusion_set in APT_GROUP_LIST.items():
     data[name] = {}
     for atk_pattern in get_techniques_by_group_software(src, intrusion_set):
+        tech_id = atk_pattern.external_references[0].external_id
+        description = atk_pattern.description
         for tatic in atk_pattern.kill_chain_phases:
-            data[name][tatic.phase_name] = {}
-            tech_id = atk_pattern.external_references[0].external_id
-            description = atk_pattern.description
+            if not tatic.phase_name in data[name].keys():
+                data[name][tatic.phase_name] = {}  
             data[name][tatic.phase_name][tech_id] = "description"
         cnt += 1
     print(f"[+] processing {name}'s techniques")

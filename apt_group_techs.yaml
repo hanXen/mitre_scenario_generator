@@ -1,10 +1,14 @@
 APT-C-36:
   command-and-control:
     T1105: description
+    T1571: description
   defense-evasion:
     T1027: description
+    T1036.004: description
   execution:
+    T1053.005: description
     T1059.005: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   persistence:
@@ -15,26 +19,44 @@ APT-C-36:
     T1588.002: description
 APT1:
   collection:
+    T1005: description
+    T1114.001: description
     T1114.002: description
+    T1119: description
+    T1560.001: description
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1036.005: description
     T1550.002: description
   discovery:
+    T1007: description
+    T1016: description
+    T1049: description
     T1057: description
+    T1087.001: description
+    T1135: description
   execution:
     T1059.003: description
   initial-access:
     T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1550.002: description
   resource-development:
+    T1583.001: description
     T1584.001: description
+    T1585.002: description
+    T1588.001: description
+    T1588.002: description
 APT12:
   command-and-control:
     T1102.002: description
+    T1568.003: description
   execution:
     T1203: description
+    T1204.002: description
   initial-access:
     T1566.001: description
 APT16:
@@ -42,117 +64,399 @@ APT16:
     T1584.004: description
 APT17:
   resource-development:
+    T1583.006: description
     T1585: description
 APT18:
   command-and-control:
+    T1071.001: description
+    T1071.004: description
     T1105: description
   defense-evasion:
+    T1027: description
     T1070.004: description
+    T1078: description
   discovery:
+    T1082: description
     T1083: description
   execution:
     T1053.002: description
+    T1059.003: description
   initial-access:
     T1078: description
+    T1133: description
   persistence:
     T1053.002: description
+    T1078: description
+    T1133: description
+    T1547.001: description
   privilege-escalation:
     T1053.002: description
+    T1078: description
+    T1547.001: description
 APT19:
   command-and-control:
     T1071.001: description
+    T1132.001: description
   defense-evasion:
+    T1027: description
+    T1112: description
+    T1140: description
+    T1218.010: description
+    T1218.011: description
+    T1564.003: description
     T1574.002: description
   discovery:
     T1016: description
+    T1033: description
+    T1082: description
   execution:
+    T1059: description
     T1059.001: description
+    T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
   persistence:
+    T1543.003: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1543.003: description
+    T1547.001: description
     T1574.002: description
   resource-development:
     T1588.002: description
 APT28:
   collection:
+    T1005: description
+    T1025: description
+    T1039: description
+    T1056.001: description
+    T1074.001: description
+    T1074.002: description
+    T1113: description
+    T1114.002: description
+    T1119: description
     T1213: description
+    T1213.002: description
+    T1560: description
+    T1560.001: description
   command-and-control:
     T1001.001: description
+    T1071.001: description
+    T1071.003: description
+    T1090.002: description
+    T1090.003: description
+    T1092: description
+    T1102.002: description
+    T1105: description
+    T1573.001: description
   credential-access:
+    T1003: description
+    T1003.001: description
     T1003.003: description
+    T1040: description
+    T1056.001: description
+    T1110: description
+    T1110.001: description
+    T1110.003: description
+    T1528: description
   defense-evasion:
+    T1014: description
+    T1027: description
+    T1036: description
+    T1036.005: description
+    T1070.001: description
+    T1070.004: description
+    T1070.006: description
+    T1078: description
+    T1078.004: description
+    T1134.001: description
+    T1140: description
     T1211: description
+    T1218.011: description
+    T1221: description
+    T1542.003: description
+    T1550.001: description
+    T1550.002: description
+    T1564.001: description
+    T1564.003: description
   discovery:
+    T1040: description
     T1057: description
+    T1083: description
+    T1120: description
   execution:
+    T1059.001: description
+    T1059.003: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   exfiltration:
     T1030: description
+    T1048.002: description
+    T1567: description
   impact:
     T1498: description
   initial-access:
+    T1078: description
     T1078.004: description
+    T1091: description
+    T1133: description
+    T1189: description
+    T1190: description
+    T1199: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
+    T1021.002: description
+    T1091: description
+    T1210: description
     T1550.001: description
+    T1550.002: description
   persistence:
+    T1037.001: description
+    T1078: description
     T1078.004: description
+    T1098.002: description
+    T1133: description
+    T1137.002: description
+    T1505.003: description
+    T1542.003: description
+    T1546.015: description
+    T1547.001: description
   privilege-escalation:
+    T1037.001: description
+    T1068: description
+    T1078: description
     T1078.004: description
+    T1134.001: description
+    T1546.015: description
+    T1547.001: description
   reconnaissance:
+    T1589.001: description
+    T1595.002: description
     T1598: description
+    T1598.003: description
   resource-development:
+    T1583.001: description
+    T1583.006: description
+    T1586.002: description
     T1588.002: description
 APT29:
   collection:
+    T1005: description
+    T1074.002: description
+    T1114.002: description
     T1213: description
+    T1213.003: description
+    T1560.001: description
   command-and-control:
+    T1001.002: description
+    T1071.001: description
     T1090.001: description
+    T1090.003: description
+    T1090.004: description
+    T1095: description
+    T1102.002: description
+    T1105: description
+    T1568: description
+    T1573: description
   credential-access:
     T1003.006: description
+    T1110.003: description
+    T1539: description
+    T1552.004: description
+    T1555: description
+    T1555.003: description
+    T1556.007: description
+    T1558.003: description
+    T1606.001: description
+    T1606.002: description
+    T1621: description
+    T1649: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1027.002: description
+    T1027.006: description
+    T1036: description
+    T1036.004: description
+    T1036.005: description
+    T1070: description
+    T1070.004: description
+    T1070.006: description
+    T1070.008: description
+    T1078: description
+    T1078.002: description
     T1078.003: description
+    T1078.004: description
+    T1140: description
+    T1218.005: description
+    T1218.011: description
+    T1484.002: description
+    T1548.002: description
+    T1550: description
+    T1550.001: description
+    T1550.003: description
+    T1550.004: description
+    T1553.002: description
+    T1553.005: description
+    T1556.007: description
+    T1562.001: description
+    T1562.002: description
+    T1562.004: description
   discovery:
+    T1016.001: description
     T1018: description
+    T1057: description
+    T1069: description
+    T1069.002: description
+    T1082: description
+    T1083: description
+    T1087: description
+    T1087.002: description
+    T1087.004: description
+    T1482: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.006: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1048.002: description
   initial-access:
+    T1078: description
+    T1078.002: description
     T1078.003: description
+    T1078.004: description
+    T1133: description
+    T1190: description
+    T1195.002: description
+    T1199: description
+    T1566.001: description
+    T1566.002: description
+    T1566.003: description
   lateral-movement:
+    T1021.001: description
+    T1021.002: description
+    T1021.006: description
+    T1550: description
     T1550.001: description
+    T1550.003: description
+    T1550.004: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1078.002: description
     T1078.003: description
+    T1078.004: description
+    T1098.001: description
+    T1098.002: description
+    T1098.003: description
+    T1098.005: description
+    T1133: description
+    T1136.003: description
+    T1505.003: description
+    T1546.003: description
+    T1546.008: description
+    T1547.001: description
+    T1556.007: description
   privilege-escalation:
+    T1053.005: description
+    T1068: description
+    T1078: description
+    T1078.002: description
     T1078.003: description
+    T1078.004: description
+    T1484.002: description
+    T1546.003: description
+    T1546.008: description
+    T1547.001: description
+    T1548.002: description
   reconnaissance:
     T1589.001: description
+    T1595.002: description
   resource-development:
+    T1583.001: description
+    T1583.006: description
     T1584.001: description
+    T1586.002: description
+    T1587.001: description
+    T1587.003: description
+    T1588.002: description
 APT3:
   collection:
     T1005: description
+    T1056.001: description
+    T1074.001: description
+    T1560.001: description
   command-and-control:
+    T1065: description
+    T1090.002: description
+    T1095: description
+    T1104: description
     T1105: description
   credential-access:
+    T1003.001: description
+    T1056.001: description
+    T1110.002: description
     T1552.001: description
+    T1555.003: description
   defense-evasion:
+    T1027: description
+    T1027.002: description
+    T1027.005: description
+    T1070.004: description
+    T1078.002: description
+    T1218.011: description
+    T1564.003: description
     T1574.002: description
   discovery:
+    T1016: description
     T1018: description
+    T1033: description
+    T1049: description
+    T1057: description
+    T1069: description
+    T1082: description
+    T1083: description
+    T1087.001: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1203: description
     T1204.001: description
   exfiltration:
     T1041: description
   initial-access:
     T1078.002: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
   persistence:
+    T1053.005: description
+    T1078.002: description
+    T1098: description
+    T1136.001: description
+    T1543.003: description
+    T1546.008: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1078.002: description
+    T1543.003: description
+    T1546.008: description
+    T1547.001: description
     T1574.002: description
 APT30:
   execution:
@@ -161,147 +465,438 @@ APT30:
     T1566.001: description
 APT32:
   collection:
+    T1056.001: description
     T1560: description
   command-and-control:
+    T1065: description
+    T1071.001: description
+    T1071.003: description
     T1094: description
+    T1102: description
+    T1105: description
+    T1571: description
   credential-access:
+    T1003: description
     T1003.001: description
+    T1056.001: description
+    T1552.002: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1036: description
+    T1036.003: description
+    T1036.004: description
+    T1036.005: description
+    T1055: description
+    T1070.001: description
+    T1070.004: description
+    T1070.006: description
     T1078.003: description
+    T1112: description
+    T1216.001: description
+    T1218.005: description
+    T1218.010: description
+    T1218.011: description
+    T1222.002: description
+    T1550.002: description
+    T1550.003: description
+    T1564.001: description
+    T1564.003: description
+    T1564.004: description
+    T1574.002: description
   discovery:
+    T1012: description
+    T1016: description
+    T1018: description
+    T1033: description
     T1046: description
+    T1049: description
+    T1082: description
+    T1083: description
+    T1087.001: description
+    T1135: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.007: description
+    T1072: description
+    T1203: description
+    T1204.001: description
+    T1204.002: description
     T1569.002: description
   exfiltration:
+    T1041: description
     T1048.003: description
   initial-access:
     T1078.003: description
+    T1189: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
+    T1021.002: description
+    T1072: description
     T1550.002: description
+    T1550.003: description
+    T1570: description
   persistence:
+    T1053.005: description
     T1078.003: description
+    T1137: description
+    T1505.003: description
+    T1543.003: description
+    T1547.001: description
+    T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1055: description
+    T1068: description
     T1078.003: description
+    T1543.003: description
+    T1547.001: description
+    T1574.002: description
   reconnaissance:
+    T1589: description
     T1589.002: description
+    T1598.003: description
   resource-development:
+    T1583.001: description
+    T1583.006: description
     T1585.001: description
+    T1588.002: description
+    T1608.001: description
+    T1608.004: description
 APT33:
   collection:
     T1560.001: description
   command-and-control:
+    T1065: description
+    T1071.001: description
     T1105: description
+    T1132.001: description
+    T1571: description
+    T1573.001: description
   credential-access:
+    T1003.001: description
+    T1003.004: description
+    T1003.005: description
+    T1040: description
+    T1110.003: description
+    T1552.001: description
     T1552.006: description
+    T1555: description
+    T1555.003: description
   defense-evasion:
+    T1027: description
+    T1078: description
     T1078.004: description
   discovery:
     T1040: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1048.003: description
   initial-access:
+    T1078: description
     T1078.004: description
+    T1566.001: description
+    T1566.002: description
   persistence:
+    T1053.005: description
+    T1078: description
     T1078.004: description
+    T1546.003: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
+    T1068: description
+    T1078: description
     T1078.004: description
+    T1546.003: description
+    T1547.001: description
   resource-development:
     T1588.002: description
 APT34: {}
 APT37:
   collection:
     T1005: description
+    T1123: description
   command-and-control:
+    T1071.001: description
     T1094: description
+    T1102.002: description
+    T1105: description
   credential-access:
     T1555.003: description
   defense-evasion:
+    T1027: description
     T1027.003: description
+    T1036.001: description
+    T1055: description
+    T1548.002: description
   discovery:
+    T1033: description
     T1057: description
+    T1082: description
+    T1120: description
   execution:
+    T1053.005: description
+    T1059: description
+    T1059.003: description
     T1059.005: description
+    T1059.006: description
+    T1106: description
+    T1203: description
+    T1204.002: description
+    T1559.002: description
   impact:
     T1529: description
+    T1561.002: description
   initial-access:
     T1189: description
+    T1566.001: description
   persistence:
+    T1053.005: description
     T1547.001: description
   privilege-escalation:
+    T1053.005: description
+    T1055: description
     T1547.001: description
+    T1548.002: description
 APT38:
   collection:
     T1005: description
+    T1056.001: description
+    T1115: description
   command-and-control:
+    T1071.001: description
     T1105: description
   credential-access:
+    T1056.001: description
     T1110: description
   defense-evasion:
     T1027.002: description
+    T1070.001: description
+    T1070.004: description
+    T1070.006: description
+    T1112: description
+    T1218.001: description
+    T1218.011: description
+    T1562.003: description
+    T1562.004: description
   discovery:
+    T1033: description
+    T1049: description
+    T1057: description
+    T1082: description
+    T1083: description
+    T1135: description
+    T1217: description
     T1518.001: description
   execution:
+    T1053.003: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1106: description
+    T1204.002: description
     T1569.002: description
   impact:
+    T1485: description
+    T1486: description
     T1529: description
+    T1561.002: description
+    T1565.001: description
+    T1565.002: description
+    T1565.003: description
   initial-access:
     T1189: description
+    T1566.001: description
   persistence:
+    T1053.003: description
+    T1053.005: description
     T1505.003: description
+    T1543.003: description
   privilege-escalation:
     T1053.003: description
+    T1053.005: description
+    T1543.003: description
   resource-development:
     T1588.002: description
 APT39:
   collection:
+    T1005: description
     T1056: description
+    T1056.001: description
+    T1074.001: description
+    T1113: description
+    T1115: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1071.004: description
     T1090.001: description
+    T1090.002: description
+    T1102.002: description
+    T1105: description
   credential-access:
+    T1003: description
+    T1003.001: description
     T1056: description
+    T1056.001: description
+    T1110: description
+    T1555: description
   defense-evasion:
+    T1027: description
     T1027.002: description
+    T1036.005: description
+    T1070.004: description
+    T1078: description
+    T1140: description
+    T1197: description
+    T1553.006: description
   discovery:
+    T1012: description
+    T1018: description
+    T1033: description
     T1046: description
+    T1083: description
+    T1135: description
   execution:
+    T1053.005: description
+    T1059: description
+    T1059.001: description
+    T1059.005: description
+    T1059.006: description
+    T1204.001: description
+    T1204.002: description
     T1569.002: description
   exfiltration:
     T1041: description
   initial-access:
     T1078: description
+    T1190: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
+    T1021.004: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1136.001: description
+    T1197: description
+    T1505.003: description
     T1546.010: description
+    T1547.001: description
+    T1547.009: description
   privilege-escalation:
+    T1053.005: description
+    T1078: description
     T1546.010: description
+    T1547.001: description
+    T1547.009: description
   resource-development:
     T1588.002: description
 APT41:
   collection:
     T1005: description
+    T1056.001: description
+    T1560.001: description
   command-and-control:
+    T1008: description
+    T1071.001: description
+    T1071.002: description
+    T1071.004: description
+    T1090: description
     T1102.001: description
+    T1104: description
+    T1105: description
+    T1568.002: description
   credential-access:
     T1003.001: description
+    T1056.001: description
+    T1110.002: description
   defense-evasion:
+    T1014: description
+    T1027: description
+    T1036.004: description
+    T1036.005: description
+    T1055: description
+    T1070.001: description
+    T1070.003: description
+    T1070.004: description
+    T1078: description
+    T1112: description
+    T1197: description
+    T1218.001: description
+    T1218.011: description
     T1480.001: description
+    T1542.003: description
+    T1553.002: description
+    T1574.001: description
+    T1574.002: description
+    T1574.006: description
   discovery:
+    T1016: description
+    T1033: description
     T1046: description
+    T1049: description
+    T1083: description
+    T1135: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.004: description
+    T1203: description
     T1569.002: description
   impact:
+    T1486: description
     T1496: description
   initial-access:
+    T1078: description
+    T1133: description
+    T1190: description
     T1195.002: description
+    T1566.001: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1133: description
+    T1136.001: description
+    T1197: description
+    T1542.003: description
+    T1543.003: description
+    T1546.008: description
+    T1547.001: description
+    T1574.001: description
     T1574.002: description
+    T1574.006: description
   privilege-escalation:
+    T1053.005: description
+    T1055: description
+    T1078: description
+    T1543.003: description
+    T1546.008: description
+    T1547.001: description
+    T1574.001: description
     T1574.002: description
+    T1574.006: description
   resource-development:
     T1588.002: description
 Ajax Security Team:
@@ -310,10 +905,12 @@ Ajax Security Team:
   command-and-control:
     T1105: description
   credential-access:
+    T1056.001: description
     T1555.003: description
   execution:
     T1204.002: description
   initial-access:
+    T1566.001: description
     T1566.003: description
 Andariel:
   collection:
@@ -323,27 +920,35 @@ Andariel:
   defense-evasion:
     T1027.003: description
   discovery:
+    T1049: description
     T1057: description
   execution:
     T1203: description
+    T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
   reconnaissance:
+    T1590.005: description
     T1592.002: description
   resource-development:
     T1588.001: description
 Aoqin Dragon:
   defense-evasion:
     T1027.002: description
+    T1036.005: description
   discovery:
     T1083: description
   execution:
     T1203: description
+    T1204.002: description
   initial-access:
     T1091: description
   lateral-movement:
+    T1091: description
     T1570: description
   resource-development:
+    T1587.001: description
     T1588.002: description
 Aquatic Panda:
   collection:
@@ -353,10 +958,16 @@ Aquatic Panda:
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1027: description
     T1070.004: description
+    T1562.001: description
+    T1574.001: description
   discovery:
+    T1007: description
+    T1082: description
     T1518.001: description
   execution:
+    T1059.001: description
     T1059.003: description
   persistence:
     T1574.001: description
@@ -365,93 +976,169 @@ Aquatic Panda:
   reconnaissance:
     T1595.002: description
   resource-development:
+    T1588.001: description
     T1588.002: description
 Axiom:
   collection:
+    T1005: description
     T1560: description
   command-and-control:
     T1001.002: description
   credential-access:
     T1003: description
   defense-evasion:
+    T1078: description
     T1553: description
   execution:
     T1203: description
   initial-access:
+    T1078: description
     T1189: description
+    T1190: description
+    T1566: description
   lateral-movement:
     T1021.001: description
+    T1563.002: description
   persistence:
     T1078: description
+    T1546.008: description
   privilege-escalation:
     T1078: description
+    T1546.008: description
   resource-development:
+    T1583.002: description
+    T1583.003: description
     T1584.005: description
 BITTER:
   command-and-control:
+    T1071.001: description
+    T1095: description
     T1105: description
+    T1568: description
+    T1573: description
   defense-evasion:
     T1027: description
+    T1036.004: description
   execution:
+    T1053.005: description
     T1203: description
+    T1204.002: description
+    T1559.002: description
   initial-access:
     T1566.001: description
   persistence:
     T1053.005: description
   privilege-escalation:
+    T1053.005: description
     T1068: description
   resource-development:
+    T1583.001: description
     T1588.002: description
+    T1608.001: description
 BRONZE BUTLER:
   collection:
+    T1005: description
     T1039: description
+    T1113: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
     T1102.001: description
+    T1105: description
+    T1132.001: description
+    T1573.001: description
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1027.001: description
+    T1027.003: description
+    T1036: description
+    T1036.002: description
+    T1036.005: description
+    T1070.004: description
+    T1140: description
+    T1548.002: description
+    T1550.003: description
+    T1562.001: description
     T1574.002: description
   discovery:
+    T1007: description
+    T1018: description
+    T1083: description
+    T1087.002: description
     T1124: description
+    T1518: description
   execution:
     T1053.002: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.006: description
+    T1203: description
+    T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
   lateral-movement:
+    T1080: description
     T1550.003: description
   persistence:
     T1053.002: description
+    T1053.005: description
+    T1547.001: description
+    T1574.002: description
   privilege-escalation:
     T1053.002: description
+    T1053.005: description
+    T1547.001: description
+    T1548.002: description
+    T1574.002: description
   resource-development:
     T1588.002: description
 BackdoorDiplomacy:
   collection:
     T1074.001: description
   command-and-control:
+    T1095: description
     T1105: description
   defense-evasion:
+    T1027: description
+    T1036.004: description
+    T1036.005: description
     T1055.001: description
+    T1574.001: description
   discovery:
     T1046: description
+    T1049: description
+    T1120: description
   initial-access:
     T1190: description
   persistence:
     T1505.003: description
+    T1574.001: description
   privilege-escalation:
     T1055.001: description
+    T1574.001: description
   resource-development:
+    T1588.001: description
     T1588.002: description
 BlackOasis: {}
 BlackTech:
   defense-evasion:
+    T1036.002: description
     T1574.002: description
   discovery:
     T1046: description
   execution:
+    T1106: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1190: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.004: description
   persistence:
@@ -459,17 +1146,29 @@ BlackTech:
   privilege-escalation:
     T1574.002: description
   resource-development:
+    T1588.002: description
     T1588.003: description
+    T1588.004: description
 Blue Mockingbird:
   command-and-control:
     T1090: description
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1027: description
+    T1036.005: description
+    T1112: description
+    T1134: description
+    T1218.010: description
+    T1218.011: description
     T1574.012: description
   discovery:
     T1082: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
     T1569.002: description
   impact:
     T1496: description
@@ -477,47 +1176,122 @@ Blue Mockingbird:
     T1190: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
   persistence:
+    T1053.005: description
+    T1543.003: description
+    T1546.003: description
     T1574.012: description
   privilege-escalation:
+    T1053.005: description
+    T1134: description
+    T1543.003: description
+    T1546.003: description
     T1574.012: description
   resource-development:
     T1588.002: description
 Carbanak:
   command-and-control:
     T1102.002: description
+    T1219: description
   defense-evasion:
+    T1036.004: description
+    T1036.005: description
     T1078: description
+    T1218.011: description
+    T1562.004: description
   initial-access:
     T1078: description
   persistence:
     T1078: description
+    T1543.003: description
   privilege-escalation:
     T1078: description
+    T1543.003: description
   resource-development:
     T1588.002: description
 Chimera:
   collection:
+    T1039: description
+    T1074.001: description
+    T1074.002: description
+    T1114.001: description
     T1114.002: description
+    T1119: description
+    T1213.002: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1071.004: description
     T1105: description
+    T1572: description
   credential-access:
     T1003.003: description
+    T1110.003: description
+    T1110.004: description
+    T1111: description
+    T1556.001: description
   defense-evasion:
+    T1027: description
+    T1036.005: description
+    T1070.001: description
+    T1070.004: description
+    T1070.006: description
+    T1078: description
+    T1078.002: description
+    T1550.002: description
+    T1556.001: description
     T1574.002: description
   discovery:
+    T1007: description
+    T1012: description
+    T1016: description
+    T1018: description
+    T1033: description
+    T1046: description
+    T1049: description
+    T1057: description
+    T1069.001: description
+    T1082: description
+    T1083: description
+    T1087.001: description
+    T1087.002: description
     T1124: description
+    T1135: description
+    T1201: description
+    T1217: description
+    T1482: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1106: description
     T1569.002: description
   exfiltration:
+    T1041: description
     T1567.002: description
   initial-access:
+    T1078: description
     T1078.002: description
+    T1133: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
+    T1021.006: description
+    T1550.002: description
+    T1570: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1078.002: description
+    T1133: description
+    T1556.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1078: description
+    T1078.002: description
     T1574.002: description
   reconnaissance:
     T1589.001: description
@@ -527,55 +1301,105 @@ Cleaver:
   collection:
     T1557.002: description
   credential-access:
+    T1003.001: description
     T1557.002: description
   resource-development:
     T1585.001: description
+    T1587.001: description
+    T1588.002: description
 Cobalt Group:
   command-and-control:
+    T1071.001: description
+    T1071.004: description
     T1105: description
+    T1219: description
+    T1572: description
+    T1573.002: description
   defense-evasion:
+    T1027: description
+    T1055: description
+    T1070.004: description
+    T1218.003: description
+    T1218.008: description
+    T1218.010: description
     T1220: description
+    T1548.002: description
   discovery:
     T1046: description
+    T1518.001: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.007: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   initial-access:
     T1195.002: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
   persistence:
     T1037.001: description
+    T1053.005: description
+    T1543.003: description
+    T1547.001: description
   privilege-escalation:
     T1037.001: description
+    T1053.005: description
+    T1055: description
+    T1068: description
+    T1543.003: description
+    T1547.001: description
+    T1548.002: description
   resource-development:
     T1588.002: description
 Confucius:
   collection:
     T1119: description
   command-and-control:
+    T1071.001: description
     T1105: description
   defense-evasion:
+    T1218.005: description
     T1221: description
   discovery:
+    T1082: description
     T1083: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
+    T1041: description
     T1567.002: description
   initial-access:
     T1566.001: description
+    T1566.002: description
   persistence:
+    T1053.005: description
     T1547.001: description
   privilege-escalation:
+    T1053.005: description
     T1547.001: description
   resource-development:
     T1583.006: description
 CopyKittens:
   collection:
+    T1560.001: description
     T1560.003: description
   command-and-control:
     T1090: description
   defense-evasion:
+    T1218.011: description
+    T1553.002: description
     T1564.003: description
   execution:
     T1059.001: description
@@ -585,15 +1409,20 @@ CostaRicto: {}
 Dark Caracal:
   collection:
     T1005: description
+    T1113: description
   command-and-control:
     T1071.001: description
   defense-evasion:
+    T1027: description
     T1027.002: description
+    T1218.001: description
   discovery:
     T1083: description
   execution:
     T1059.003: description
+    T1204.002: description
   initial-access:
+    T1189: description
     T1566.003: description
   persistence:
     T1547.001: description
@@ -604,19 +1433,25 @@ DarkHydrus:
     T1187: description
   defense-evasion:
     T1221: description
+    T1564.003: description
   execution:
     T1059.001: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   resource-development:
     T1588.002: description
 DarkVishnya:
   command-and-control:
+    T1219: description
     T1571: description
   credential-access:
+    T1040: description
     T1110: description
   discovery:
+    T1040: description
     T1046: description
+    T1135: description
   execution:
     T1059.001: description
   initial-access:
@@ -630,292 +1465,603 @@ DarkVishnya:
 Darkhotel: {}
 Deep Panda:
   defense-evasion:
+    T1027.005: description
+    T1218.010: description
     T1564.003: description
   discovery:
     T1018: description
+    T1057: description
   execution:
+    T1047: description
     T1059.001: description
   lateral-movement:
     T1021.002: description
   persistence:
+    T1505.003: description
     T1546.008: description
   privilege-escalation:
     T1546.008: description
 DragonOK: {}
 Dragonfly:
   collection:
+    T1005: description
+    T1074.001: description
+    T1113: description
     T1114.002: description
+    T1560: description
   command-and-control:
+    T1071: description
     T1105: description
   credential-access:
+    T1003.002: description
     T1003.003: description
+    T1003.004: description
+    T1110: description
+    T1110.002: description
+    T1187: description
   defense-evasion:
+    T1036: description
+    T1070.001: description
+    T1070.004: description
+    T1078: description
+    T1112: description
     T1221: description
+    T1562.004: description
+    T1564.002: description
   discovery:
+    T1012: description
+    T1016: description
     T1018: description
+    T1033: description
+    T1069.002: description
+    T1083: description
+    T1087.002: description
+    T1135: description
   execution:
+    T1053.005: description
+    T1059: description
+    T1059.001: description
     T1059.003: description
+    T1059.006: description
+    T1203: description
+    T1204.002: description
   initial-access:
+    T1078: description
+    T1133: description
     T1189: description
+    T1190: description
+    T1195.002: description
+    T1566.001: description
   lateral-movement:
     T1021.001: description
+    T1210: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1098: description
+    T1133: description
+    T1136.001: description
+    T1505.003: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
     T1078: description
+    T1547.001: description
   reconnaissance:
+    T1591.002: description
+    T1595.002: description
     T1598.002: description
+    T1598.003: description
   resource-development:
+    T1583.001: description
+    T1583.003: description
     T1584.004: description
+    T1588.002: description
+    T1608.004: description
 Dragonfly 2.0: {}
 Dust Storm: {}
 EXOTIC LILY:
   command-and-control:
     T1102: description
   execution:
+    T1203: description
     T1204.001: description
+    T1204.002: description
   initial-access:
+    T1566.001: description
+    T1566.002: description
     T1566.003: description
   reconnaissance:
+    T1589.002: description
     T1593.001: description
+    T1594: description
+    T1597: description
   resource-development:
+    T1583.001: description
     T1585.001: description
+    T1585.002: description
+    T1608.001: description
 Earth Lusca:
   collection:
     T1560.001: description
   command-and-control:
     T1090: description
   credential-access:
+    T1003.001: description
     T1003.006: description
   defense-evasion:
+    T1027: description
+    T1027.003: description
+    T1036.005: description
+    T1112: description
+    T1140: description
+    T1218.005: description
+    T1548.002: description
     T1574.002: description
   discovery:
+    T1007: description
+    T1016: description
     T1018: description
+    T1033: description
+    T1049: description
+    T1057: description
+    T1482: description
   execution:
+    T1047: description
+    T1053: description
+    T1059.001: description
+    T1059.005: description
+    T1059.006: description
+    T1059.007: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1567.002: description
   initial-access:
     T1189: description
+    T1190: description
+    T1566.002: description
   lateral-movement:
     T1210: description
   persistence:
+    T1053: description
+    T1098.004: description
+    T1543.003: description
+    T1547.012: description
     T1574.002: description
   privilege-escalation:
+    T1053: description
+    T1543.003: description
+    T1547.012: description
+    T1548.002: description
     T1574.002: description
   reconnaissance:
     T1595.002: description
   resource-development:
+    T1583.001: description
+    T1583.004: description
+    T1583.006: description
     T1584.004: description
+    T1584.006: description
+    T1588.001: description
+    T1588.002: description
+    T1608.001: description
 Elderwood:
   command-and-control:
     T1105: description
   defense-evasion:
+    T1027: description
     T1027.002: description
   execution:
+    T1203: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
+    T1566.002: description
 Ember Bear:
   command-and-control:
+    T1102: description
     T1105: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
     T1027.002: description
+    T1112: description
+    T1218.002: description
+    T1553.002: description
+    T1562.001: description
   execution:
+    T1059.001: description
+    T1059.003: description
+    T1059.007: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1566.001: description
+    T1566.002: description
   resource-development:
+    T1588.002: description
     T1588.003: description
 Equation: {}
 Evilnum:
   command-and-control:
     T1105: description
+    T1219: description
   credential-access:
+    T1539: description
     T1555: description
   defense-evasion:
     T1070.004: description
+    T1497.001: description
+    T1548.002: description
+    T1574.001: description
   discovery:
     T1497.001: description
   execution:
+    T1059.007: description
     T1204.001: description
   initial-access:
     T1566.002: description
   persistence:
     T1574.001: description
   privilege-escalation:
+    T1548.002: description
     T1574.001: description
 FIN10:
   defense-evasion:
+    T1070.004: description
+    T1078: description
     T1078.003: description
   discovery:
     T1033: description
   execution:
+    T1053.005: description
+    T1059.001: description
     T1059.003: description
   initial-access:
+    T1078: description
     T1078.003: description
   lateral-movement:
     T1021.001: description
+    T1570: description
   persistence:
+    T1053.005: description
+    T1078: description
     T1078.003: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
+    T1078: description
     T1078.003: description
+    T1547.001: description
   resource-development:
     T1588.002: description
 FIN4: {}
 FIN5:
   collection:
+    T1074.001: description
     T1119: description
   command-and-control:
     T1090.002: description
   credential-access:
     T1110: description
   defense-evasion:
+    T1070.001: description
     T1070.004: description
+    T1078: description
   discovery:
     T1018: description
   execution:
     T1059: description
   initial-access:
     T1078: description
+    T1133: description
   persistence:
     T1078: description
+    T1133: description
   privilege-escalation:
     T1078: description
   resource-development:
     T1588.002: description
 FIN6:
   collection:
+    T1005: description
+    T1074.002: description
+    T1119: description
     T1213: description
+    T1560: description
+    T1560.003: description
   command-and-control:
     T1095: description
+    T1102: description
+    T1572: description
+    T1573.002: description
   credential-access:
+    T1003.001: description
     T1003.003: description
+    T1110.002: description
+    T1555: description
+    T1555.003: description
   defense-evasion:
+    T1027: description
+    T1036.004: description
+    T1070.004: description
+    T1078: description
     T1134: description
+    T1553.002: description
+    T1562.001: description
   discovery:
+    T1018: description
     T1046: description
+    T1087.002: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059: description
+    T1059.001: description
+    T1059.003: description
+    T1059.007: description
+    T1204.002: description
     T1569.002: description
   exfiltration:
     T1048.003: description
   initial-access:
+    T1078: description
+    T1566.001: description
     T1566.003: description
   lateral-movement:
     T1021.001: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
+    T1068: description
+    T1078: description
     T1134: description
+    T1547.001: description
   resource-development:
     T1588.002: description
 FIN7:
   collection:
+    T1005: description
+    T1113: description
     T1125: description
   command-and-control:
     T1008: description
+    T1071.004: description
+    T1102.002: description
+    T1105: description
+    T1571: description
   credential-access:
     T1558.003: description
   defense-evasion:
     T1027: description
+    T1036.004: description
+    T1036.005: description
+    T1078: description
+    T1218.005: description
+    T1497.002: description
+    T1553.002: description
   discovery:
     T1497.002: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.007: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   exfiltration:
     T1567.002: description
   impact:
     T1486: description
   initial-access:
     T1078: description
+    T1091: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1021.004: description
+    T1021.005: description
+    T1091: description
+    T1210: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1543.003: description
+    T1546.011: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
     T1078: description
+    T1543.003: description
+    T1546.011: description
+    T1547.001: description
   resource-development:
     T1583.001: description
+    T1587.001: description
 FIN8:
   collection:
     T1074.002: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1102: description
     T1105: description
+    T1573.002: description
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1027: description
+    T1055.004: description
+    T1070.001: description
     T1070.004: description
+    T1078: description
+    T1112: description
+    T1134.001: description
   discovery:
     T1018: description
+    T1482: description
+    T1518.001: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1048.003: description
   initial-access:
     T1078: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1546.003: description
   privilege-escalation:
+    T1053.005: description
+    T1055.004: description
     T1068: description
+    T1078: description
+    T1134.001: description
+    T1546.003: description
 Ferocious Kitten:
   defense-evasion:
     T1036.002: description
+    T1036.005: description
   execution:
     T1204.002: description
   initial-access:
     T1566.001: description
   resource-development:
+    T1583.001: description
     T1588.002: description
 Fox Kitten:
   collection:
+    T1005: description
+    T1039: description
     T1213: description
+    T1530: description
+    T1560.001: description
   command-and-control:
+    T1090: description
+    T1102: description
     T1105: description
+    T1572: description
   credential-access:
+    T1003.001: description
     T1003.003: description
+    T1110: description
+    T1552.001: description
+    T1555.005: description
   defense-evasion:
     T1027: description
+    T1036.004: description
+    T1036.005: description
+    T1078: description
   discovery:
+    T1012: description
+    T1018: description
     T1046: description
+    T1083: description
+    T1087.001: description
+    T1087.002: description
+    T1217: description
   execution:
+    T1053.005: description
+    T1059: description
+    T1059.001: description
     T1059.003: description
   initial-access:
     T1078: description
+    T1190: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
+    T1021.004: description
+    T1021.005: description
+    T1210: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1136.001: description
+    T1505.003: description
+    T1546.008: description
   privilege-escalation:
+    T1053.005: description
     T1078: description
+    T1546.008: description
   resource-development:
     T1585: description
+    T1585.001: description
 Frankenstein: {}
 GALLIUM:
   collection:
     T1005: description
+    T1074.001: description
+    T1560.001: description
   command-and-control:
+    T1090.002: description
     T1105: description
   credential-access:
     T1003.001: description
+    T1003.002: description
   defense-evasion:
+    T1027: description
+    T1027.002: description
+    T1027.005: description
+    T1036.003: description
+    T1078: description
+    T1550.002: description
+    T1553.002: description
     T1574.002: description
   discovery:
+    T1016: description
     T1018: description
+    T1033: description
+    T1049: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
     T1059.003: description
   exfiltration:
     T1041: description
   initial-access:
     T1078: description
+    T1133: description
+    T1190: description
   lateral-movement:
     T1550.002: description
+    T1570: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1133: description
+    T1136.002: description
+    T1505.003: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1078: description
     T1574.002: description
   resource-development:
+    T1583.004: description
     T1588.002: description
 GCMAN: {}
 GOLD SOUTHFIELD:
@@ -928,124 +2074,244 @@ GOLD SOUTHFIELD:
   execution:
     T1059.001: description
   initial-access:
+    T1133: description
+    T1190: description
     T1195.002: description
+    T1199: description
+    T1566: description
   persistence:
     T1133: description
 Gallmaker: {}
 Gamaredon Group:
   collection:
+    T1005: description
+    T1025: description
     T1039: description
+    T1113: description
+    T1119: description
   command-and-control:
+    T1071.001: description
+    T1102: description
     T1105: description
+    T1568: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1027.004: description
+    T1036.005: description
+    T1070.004: description
+    T1112: description
+    T1140: description
+    T1218.005: description
+    T1218.011: description
     T1221: description
+    T1562.001: description
+    T1564.003: description
   discovery:
+    T1016.001: description
+    T1033: description
     T1057: description
+    T1082: description
+    T1083: description
+    T1120: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
     T1059.005: description
+    T1106: description
+    T1204.002: description
+    T1559.001: description
   exfiltration:
+    T1020: description
     T1041: description
   impact:
     T1485: description
+    T1491.001: description
   initial-access:
     T1566.001: description
   lateral-movement:
+    T1021.005: description
+    T1080: description
     T1534: description
   persistence:
+    T1053.005: description
+    T1137: description
     T1547.001: description
   privilege-escalation:
+    T1053.005: description
     T1547.001: description
   resource-development:
     T1583.001: description
+    T1608.001: description
 Gelsemium: {}
 Gorgon Group:
   command-and-control:
+    T1065: description
     T1105: description
   defense-evasion:
+    T1055.002: description
+    T1055.012: description
+    T1112: description
+    T1140: description
+    T1562.001: description
     T1564.003: description
   execution:
+    T1059.001: description
+    T1059.003: description
     T1059.005: description
+    T1106: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   persistence:
     T1547.001: description
+    T1547.009: description
   privilege-escalation:
+    T1055.002: description
     T1055.012: description
+    T1547.001: description
+    T1547.009: description
   resource-development:
     T1588.002: description
 Group5:
   collection:
     T1056.001: description
+    T1113: description
   command-and-control:
     T1065: description
   credential-access:
     T1056.001: description
   defense-evasion:
+    T1027: description
     T1070.004: description
 HAFNIUM:
   collection:
     T1114.002: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1095: description
     T1105: description
+    T1132.001: description
   credential-access:
+    T1003.001: description
     T1003.003: description
   defense-evasion:
     T1078.003: description
+    T1218.011: description
   execution:
     T1059.001: description
   exfiltration:
     T1567.002: description
   initial-access:
     T1078.003: description
+    T1190: description
   persistence:
     T1078.003: description
+    T1136.002: description
+    T1505.003: description
   privilege-escalation:
     T1078.003: description
   reconnaissance:
+    T1589.002: description
     T1590: description
+    T1590.005: description
+    T1592.004: description
   resource-development:
+    T1583.003: description
     T1583.006: description
 HEXANE:
   collection:
     T1056.001: description
   command-and-control:
+    T1102.002: description
     T1105: description
   credential-access:
+    T1056.001: description
     T1110: description
+    T1110.003: description
+    T1555: description
+    T1555.003: description
   defense-evasion:
     T1027: description
   discovery:
+    T1010: description
+    T1016: description
+    T1016.001: description
+    T1018: description
+    T1033: description
+    T1049: description
+    T1057: description
+    T1069.001: description
+    T1082: description
     T1518: description
   execution:
+    T1053.005: description
+    T1059.001: description
     T1059.005: description
+    T1204.002: description
   exfiltration:
     T1567.002: description
   lateral-movement:
     T1021.001: description
+    T1534: description
   persistence:
     T1053.005: description
   privilege-escalation:
     T1053.005: description
   reconnaissance:
+    T1589: description
+    T1589.002: description
     T1591.004: description
   resource-development:
+    T1583.001: description
+    T1583.002: description
     T1585.001: description
+    T1585.002: description
+    T1586.002: description
+    T1588.002: description
+    T1608.001: description
 Higaisa:
   command-and-control:
+    T1001.003: description
+    T1071.001: description
     T1090.001: description
+    T1573.001: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1036.004: description
+    T1140: description
     T1220: description
+    T1564.003: description
+    T1574.002: description
   discovery:
+    T1016: description
+    T1057: description
+    T1082: description
     T1124: description
   execution:
+    T1053.005: description
+    T1059.003: description
     T1059.005: description
+    T1059.007: description
+    T1106: description
+    T1203: description
+    T1204.002: description
   exfiltration:
+    T1029: description
     T1041: description
   initial-access:
     T1566.001: description
   persistence:
+    T1053.005: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1547.001: description
     T1574.002: description
 Honeybee: {}
 Inception:
@@ -1053,14 +2319,27 @@ Inception:
     T1005: description
   command-and-control:
     T1071.001: description
+    T1090.003: description
+    T1102: description
+    T1573.001: description
   credential-access:
     T1555.003: description
   defense-evasion:
+    T1027: description
+    T1218.005: description
+    T1218.010: description
     T1221: description
   discovery:
+    T1057: description
+    T1069.002: description
+    T1082: description
+    T1083: description
     T1518: description
   execution:
+    T1059.001: description
     T1059.005: description
+    T1203: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   persistence:
@@ -1077,6 +2356,9 @@ IndigoZebra:
   initial-access:
     T1566.001: description
   resource-development:
+    T1583.001: description
+    T1583.006: description
+    T1586.002: description
     T1588.002: description
 Indrik Spider:
   collection:
@@ -1086,151 +2368,467 @@ Indrik Spider:
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1036.005: description
+    T1070.001: description
     T1078.002: description
+    T1484.001: description
+    T1562.001: description
   discovery:
+    T1007: description
     T1018: description
   execution:
+    T1047: description
+    T1059.001: description
     T1059.003: description
+    T1059.007: description
+    T1204.002: description
   impact:
     T1486: description
+    T1489: description
   initial-access:
     T1078.002: description
   persistence:
+    T1078.002: description
     T1136: description
   privilege-escalation:
     T1078.002: description
+    T1484.001: description
   resource-development:
     T1584.004: description
 Ke3chang:
   collection:
+    T1005: description
+    T1056.001: description
     T1114.002: description
+    T1119: description
+    T1213.002: description
+    T1560: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1071.004: description
     T1105: description
   credential-access:
+    T1003.001: description
+    T1003.002: description
     T1003.003: description
+    T1003.004: description
+    T1056.001: description
+    T1558.001: description
   defense-evasion:
+    T1027: description
+    T1036.002: description
+    T1036.005: description
+    T1078: description
     T1078.004: description
+    T1140: description
   discovery:
+    T1007: description
+    T1016: description
     T1018: description
+    T1033: description
+    T1049: description
+    T1057: description
+    T1069.002: description
+    T1082: description
+    T1083: description
+    T1087.001: description
+    T1087.002: description
+    T1614.001: description
   execution:
+    T1059: description
+    T1059.003: description
     T1569.002: description
   exfiltration:
+    T1020: description
     T1041: description
   initial-access:
+    T1078: description
     T1078.004: description
+    T1133: description
+    T1190: description
   lateral-movement:
     T1021.002: description
   persistence:
+    T1078: description
     T1078.004: description
+    T1133: description
+    T1543.003: description
+    T1547.001: description
   privilege-escalation:
+    T1078: description
     T1078.004: description
+    T1543.003: description
+    T1547.001: description
   resource-development:
+    T1587.001: description
     T1588.002: description
 Kimsuky:
   collection:
+    T1005: description
+    T1056.001: description
+    T1074.001: description
     T1114.002: description
+    T1114.003: description
+    T1557: description
+    T1560.001: description
+    T1560.003: description
   command-and-control:
+    T1071.001: description
+    T1071.002: description
+    T1071.003: description
+    T1102.002: description
     T1105: description
+    T1219: description
   credential-access:
+    T1003.001: description
+    T1040: description
+    T1056.001: description
     T1111: description
+    T1552.001: description
+    T1555.003: description
+    T1557: description
   defense-evasion:
+    T1027: description
+    T1027.002: description
+    T1036: description
+    T1036.004: description
+    T1036.005: description
+    T1055: description
+    T1055.012: description
+    T1070.004: description
+    T1070.006: description
     T1078.003: description
+    T1112: description
+    T1140: description
+    T1218.005: description
+    T1218.010: description
+    T1218.011: description
+    T1550.002: description
+    T1553.002: description
+    T1562.001: description
+    T1562.004: description
+    T1564.002: description
+    T1564.003: description
   discovery:
+    T1007: description
+    T1012: description
+    T1016: description
+    T1040: description
+    T1057: description
+    T1082: description
+    T1083: description
     T1518.001: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.006: description
+    T1059.007: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
+    T1041: description
     T1567.002: description
   initial-access:
     T1078.003: description
+    T1133: description
+    T1190: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1534: description
+    T1550.002: description
   persistence:
+    T1053.005: description
     T1078.003: description
+    T1098: description
+    T1133: description
+    T1136.001: description
+    T1176: description
+    T1505.003: description
+    T1543.003: description
+    T1546.001: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
+    T1055: description
+    T1055.012: description
     T1078.003: description
+    T1543.003: description
+    T1546.001: description
+    T1547.001: description
   reconnaissance:
+    T1589.002: description
+    T1589.003: description
+    T1591: description
     T1593.001: description
+    T1593.002: description
+    T1594: description
+    T1598.003: description
   resource-development:
+    T1583.001: description
+    T1583.004: description
+    T1583.006: description
     T1584.001: description
+    T1585.001: description
+    T1585.002: description
+    T1586.002: description
+    T1587: description
+    T1587.001: description
+    T1588.002: description
+    T1588.005: description
+    T1608.001: description
 LAPSUS$:
   collection:
+    T1005: description
+    T1114.003: description
     T1213: description
+    T1213.001: description
+    T1213.002: description
+    T1213.003: description
   command-and-control:
     T1090: description
   credential-access:
+    T1003.003: description
     T1003.006: description
+    T1111: description
+    T1555.003: description
+    T1621: description
   defense-evasion:
+    T1078: description
     T1078.004: description
+    T1578.002: description
+    T1578.003: description
   discovery:
     T1069.002: description
+    T1087.002: description
   execution:
     T1204: description
   impact:
     T1485: description
+    T1531: description
   initial-access:
+    T1078: description
     T1078.004: description
+    T1133: description
+    T1199: description
   persistence:
+    T1078: description
     T1078.004: description
+    T1098.003: description
+    T1133: description
+    T1136.003: description
   privilege-escalation:
+    T1068: description
+    T1078: description
     T1078.004: description
   reconnaissance:
+    T1589: description
+    T1589.001: description
+    T1589.002: description
+    T1591.002: description
     T1591.004: description
+    T1593.003: description
+    T1597.002: description
   resource-development:
+    T1583.003: description
+    T1588.001: description
     T1588.002: description
 Lazarus Group:
   collection:
+    T1005: description
+    T1056.001: description
+    T1074.001: description
     T1557.001: description
+    T1560: description
+    T1560.002: description
+    T1560.003: description
   command-and-control:
+    T1001.003: description
+    T1008: description
+    T1026: description
+    T1065: description
+    T1071.001: description
     T1090.001: description
+    T1090.002: description
+    T1102.002: description
+    T1104: description
+    T1105: description
+    T1132.001: description
+    T1571: description
+    T1573.001: description
   credential-access:
+    T1056.001: description
     T1110: description
+    T1110.003: description
+    T1557.001: description
   defense-evasion:
+    T1027: description
+    T1027.002: description
+    T1027.007: description
+    T1036: description
+    T1036.003: description
+    T1036.004: description
+    T1036.005: description
     T1055.001: description
+    T1070: description
+    T1070.003: description
+    T1070.004: description
+    T1070.006: description
+    T1078: description
+    T1134.002: description
+    T1140: description
+    T1202: description
+    T1218: description
+    T1218.005: description
+    T1218.010: description
+    T1218.011: description
+    T1220: description
+    T1221: description
+    T1497.001: description
+    T1542.003: description
+    T1553.002: description
+    T1562.001: description
+    T1562.004: description
+    T1564.001: description
+    T1574.002: description
+    T1574.013: description
+    T1620: description
   discovery:
+    T1010: description
+    T1012: description
+    T1016: description
+    T1033: description
+    T1046: description
+    T1049: description
+    T1057: description
+    T1082: description
+    T1083: description
+    T1087.002: description
     T1124: description
+    T1497.001: description
+    T1614.001: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1106: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
+    T1041: description
     T1048.003: description
+    T1567.002: description
   impact:
+    T1485: description
+    T1489: description
+    T1491.001: description
     T1529: description
+    T1561.001: description
+    T1561.002: description
   initial-access:
+    T1078: description
+    T1189: description
+    T1566.001: description
+    T1566.002: description
     T1566.003: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
+    T1021.004: description
+    T1534: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1098: description
+    T1542.003: description
+    T1543.003: description
+    T1547.001: description
+    T1547.009: description
     T1574.002: description
+    T1574.013: description
   privilege-escalation:
+    T1053.005: description
     T1055.001: description
+    T1078: description
+    T1134.002: description
+    T1543.003: description
+    T1547.001: description
+    T1547.009: description
+    T1574.002: description
+    T1574.013: description
   reconnaissance:
+    T1589.002: description
+    T1591: description
     T1591.004: description
+    T1593.001: description
   resource-development:
+    T1583.001: description
+    T1583.004: description
+    T1583.006: description
     T1584.001: description
+    T1584.004: description
+    T1585.001: description
+    T1585.002: description
+    T1587.001: description
+    T1588.002: description
+    T1588.003: description
+    T1588.004: description
+    T1608.001: description
+    T1608.002: description
 LazyScripter:
   command-and-control:
+    T1071.004: description
+    T1102: description
     T1105: description
   defense-evasion:
     T1027: description
+    T1036: description
+    T1218.005: description
+    T1218.011: description
   execution:
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.007: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1566.001: description
+    T1566.002: description
   persistence:
     T1547.001: description
   privilege-escalation:
     T1547.001: description
   resource-development:
+    T1583.001: description
     T1583.006: description
+    T1588.001: description
+    T1608.001: description
 Leafminer:
   collection:
     T1114.002: description
   credential-access:
+    T1003.001: description
+    T1003.004: description
+    T1003.005: description
+    T1110.003: description
     T1552.001: description
+    T1555: description
+    T1555.003: description
   defense-evasion:
     T1027: description
+    T1055.013: description
   discovery:
+    T1018: description
     T1046: description
+    T1083: description
   execution:
     T1059.007: description
   initial-access:
@@ -1243,69 +2841,169 @@ Leafminer:
     T1588.002: description
 Leviathan:
   collection:
+    T1074.001: description
+    T1074.002: description
     T1560: description
   command-and-control:
+    T1090.003: description
+    T1102.003: description
     T1105: description
+    T1572: description
   credential-access:
+    T1003: description
     T1003.001: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1027.003: description
     T1055.001: description
+    T1078: description
+    T1140: description
+    T1197: description
+    T1218.010: description
+    T1553.002: description
   execution:
+    T1047: description
+    T1059.001: description
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   exfiltration:
+    T1041: description
     T1567.002: description
   initial-access:
+    T1078: description
+    T1133: description
     T1189: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1021.004: description
+    T1534: description
   persistence:
+    T1078: description
+    T1133: description
     T1197: description
+    T1505.003: description
+    T1546.003: description
+    T1547.001: description
+    T1547.009: description
   privilege-escalation:
     T1055.001: description
+    T1078: description
+    T1546.003: description
+    T1547.001: description
+    T1547.009: description
   reconnaissance:
     T1589.001: description
   resource-development:
+    T1583.001: description
     T1585.001: description
+    T1585.002: description
+    T1586.001: description
+    T1586.002: description
 Lotus Blossom: {}
 MONSOON: {}
 Machete:
   command-and-control:
     T1032: description
   defense-evasion:
+    T1036.005: description
     T1218.007: description
   execution:
+    T1053.005: description
+    T1059.003: description
+    T1059.005: description
+    T1059.006: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
+    T1566.002: description
   persistence:
     T1053.005: description
   privilege-escalation:
     T1053.005: description
 Magic Hound:
   collection:
+    T1005: description
+    T1056.001: description
+    T1113: description
+    T1114: description
+    T1114.001: description
     T1114.002: description
+    T1560.001: description
   command-and-control:
+    T1065: description
+    T1071: description
+    T1071.001: description
+    T1102.002: description
     T1105: description
+    T1571: description
   credential-access:
     T1003.001: description
+    T1056.001: description
   defense-evasion:
+    T1027: description
+    T1036.005: description
+    T1070.003: description
     T1070.004: description
+    T1112: description
+    T1218.011: description
+    T1562: description
+    T1562.001: description
+    T1562.004: description
+    T1564.003: description
   discovery:
+    T1016: description
+    T1033: description
+    T1049: description
     T1057: description
+    T1082: description
+    T1083: description
+    T1087.003: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
     T1204.001: description
+    T1204.002: description
   initial-access:
+    T1189: description
+    T1190: description
+    T1566.002: description
     T1566.003: description
   lateral-movement:
     T1021.001: description
   persistence:
+    T1053.005: description
     T1098.002: description
+    T1136.001: description
+    T1505.003: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
     T1547.001: description
   reconnaissance:
+    T1589: description
     T1589.001: description
+    T1589.002: description
+    T1595.002: description
+    T1598.003: description
   resource-development:
+    T1583.001: description
+    T1583.006: description
     T1584.001: description
+    T1585.001: description
+    T1585.002: description
+    T1586.002: description
+    T1588.002: description
 Moafee:
   defense-evasion:
     T1027.001: description
@@ -1314,8 +3012,10 @@ Mofang:
     T1027: description
   execution:
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1566.001: description
+    T1566.002: description
 Molerats:
   command-and-control:
     T1105: description
@@ -1323,23 +3023,38 @@ Molerats:
     T1555.003: description
   defense-evasion:
     T1027: description
+    T1140: description
+    T1218.007: description
+    T1553.002: description
   discovery:
     T1057: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.005: description
+    T1059.007: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1566.001: description
+    T1566.002: description
   persistence:
+    T1053.005: description
     T1547.001: description
   privilege-escalation:
+    T1053.005: description
     T1547.001: description
 Moses Staff:
   command-and-control:
     T1105: description
   defense-evasion:
     T1027: description
+    T1553.002: description
+    T1562.004: description
   discovery:
     T1016: description
+    T1082: description
+    T1087.001: description
   initial-access:
     T1190: description
   lateral-movement:
@@ -1347,105 +3062,269 @@ Moses Staff:
   persistence:
     T1505.003: description
   resource-development:
+    T1587.001: description
     T1588.002: description
 MuddyWater:
   collection:
     T1074.001: description
+    T1113: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1090.002: description
+    T1102.002: description
+    T1104: description
     T1105: description
+    T1132.001: description
+    T1219: description
+    T1573.001: description
   credential-access:
+    T1003.001: description
+    T1003.004: description
+    T1003.005: description
     T1552.001: description
+    T1555: description
+    T1555.003: description
   defense-evasion:
+    T1027: description
+    T1027.003: description
+    T1027.004: description
+    T1036.005: description
+    T1140: description
+    T1218.003: description
+    T1218.005: description
+    T1218.011: description
+    T1548.002: description
+    T1562.001: description
     T1574.002: description
   discovery:
+    T1016: description
+    T1033: description
+    T1049: description
+    T1057: description
+    T1082: description
+    T1083: description
+    T1087.002: description
     T1518: description
+    T1518.001: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.006: description
+    T1059.007: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
+    T1559.001: description
+    T1559.002: description
   exfiltration:
     T1041: description
   initial-access:
     T1190: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1210: description
   persistence:
+    T1053.005: description
+    T1137.001: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1547.001: description
+    T1548.002: description
     T1574.002: description
   reconnaissance:
     T1589.002: description
   resource-development:
+    T1583.006: description
     T1588.002: description
 Mustang Panda:
   collection:
+    T1074.001: description
     T1119: description
+    T1560.001: description
+    T1560.003: description
   command-and-control:
+    T1071.001: description
+    T1102: description
     T1105: description
+    T1219: description
+    T1573.001: description
   credential-access:
     T1003.003: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1036.005: description
+    T1036.007: description
+    T1070.004: description
+    T1218.004: description
+    T1218.005: description
     T1564.001: description
+    T1574.002: description
   discovery:
+    T1016: description
+    T1049: description
+    T1057: description
+    T1082: description
+    T1083: description
     T1518: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1052.001: description
   initial-access:
     T1091: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1091: description
   persistence:
+    T1053.005: description
+    T1546.003: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1546.003: description
+    T1547.001: description
     T1574.002: description
   resource-development:
+    T1583.001: description
+    T1585.002: description
     T1608: description
+    T1608.001: description
 NEODYMIUM: {}
 Naikon:
   defense-evasion:
+    T1036.004: description
+    T1036.005: description
+    T1078.002: description
     T1574.002: description
   discovery:
+    T1016: description
+    T1018: description
     T1046: description
+    T1518.001: description
   execution:
+    T1047: description
+    T1053.005: description
     T1204.002: description
   initial-access:
     T1078.002: description
+    T1566.001: description
   persistence:
+    T1053.005: description
+    T1078.002: description
+    T1137.006: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1078.002: description
+    T1547.001: description
     T1574.002: description
 Night Dragon: {}
 Nomadic Octopus:
   command-and-control:
     T1105: description
   defense-evasion:
+    T1036: description
     T1564.003: description
   execution:
+    T1059.001: description
     T1059.003: description
+    T1204.002: description
   initial-access:
     T1566.001: description
 OilRig:
   collection:
+    T1056.001: description
+    T1113: description
     T1119: description
   command-and-control:
+    T1008: description
+    T1071.001: description
+    T1071.004: description
     T1094: description
+    T1105: description
+    T1572: description
+    T1573.002: description
   credential-access:
+    T1003.001: description
+    T1003.004: description
+    T1003.005: description
+    T1056.001: description
+    T1110: description
+    T1552.001: description
+    T1555: description
+    T1555.003: description
     T1555.004: description
   defense-evasion:
+    T1027: description
+    T1027.005: description
+    T1036: description
     T1070.004: description
+    T1078: description
+    T1140: description
+    T1218.001: description
+    T1497.001: description
   discovery:
+    T1007: description
+    T1012: description
+    T1016: description
+    T1033: description
     T1046: description
+    T1049: description
+    T1057: description
+    T1069.001: description
+    T1069.002: description
+    T1082: description
+    T1087.001: description
+    T1087.002: description
+    T1120: description
+    T1201: description
+    T1497.001: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1048.003: description
   initial-access:
+    T1078: description
+    T1133: description
+    T1566.001: description
+    T1566.002: description
     T1566.003: description
   lateral-movement:
     T1021.001: description
+    T1021.004: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1133: description
     T1137.004: description
+    T1505.003: description
   privilege-escalation:
+    T1053.005: description
     T1078: description
 Operation Wocao: {}
 Orangeworm:
@@ -1455,21 +3334,30 @@ Orangeworm:
     T1021.002: description
 PLATINUM:
   collection:
+    T1056.001: description
     T1056.004: description
   command-and-control:
     T1094: description
+    T1095: description
+    T1105: description
   credential-access:
+    T1003.001: description
+    T1056.001: description
     T1056.004: description
   defense-evasion:
+    T1036: description
     T1055: description
   execution:
     T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
   privilege-escalation:
+    T1055: description
     T1068: description
 POLONIUM:
   command-and-control:
+    T1090: description
     T1102.002: description
   defense-evasion:
     T1078: description
@@ -1477,49 +3365,98 @@ POLONIUM:
     T1567.002: description
   initial-access:
     T1078: description
+    T1199: description
   persistence:
     T1078: description
   privilege-escalation:
     T1078: description
   resource-development:
+    T1583.006: description
     T1588.002: description
 PROMETHIUM:
   command-and-control:
     T1205.001: description
   defense-evasion:
+    T1036.004: description
+    T1036.005: description
     T1078.003: description
+    T1205.001: description
+    T1553.002: description
   execution:
     T1204.002: description
   initial-access:
     T1078.003: description
+    T1189: description
   persistence:
     T1078.003: description
+    T1205.001: description
+    T1543.003: description
+    T1547.001: description
   privilege-escalation:
     T1078.003: description
+    T1543.003: description
+    T1547.001: description
   resource-development:
     T1587.002: description
+    T1587.003: description
 Patchwork:
   collection:
+    T1005: description
+    T1074.001: description
+    T1119: description
     T1560: description
   command-and-control:
     T1102.001: description
+    T1105: description
+    T1132.001: description
   credential-access:
     T1555.003: description
   defense-evasion:
+    T1027: description
+    T1027.001: description
+    T1027.002: description
+    T1027.005: description
+    T1036.005: description
+    T1055.012: description
+    T1070.004: description
+    T1112: description
+    T1197: description
+    T1548.002: description
+    T1553.002: description
     T1574.002: description
   discovery:
+    T1033: description
+    T1082: description
+    T1083: description
     T1518.001: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   initial-access:
     T1189: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
   persistence:
+    T1053.005: description
+    T1197: description
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1055.012: description
+    T1547.001: description
+    T1548.002: description
     T1574.002: description
   resource-development:
+    T1587.002: description
     T1588.002: description
 PittyTiger:
   defense-evasion:
@@ -1535,31 +3472,42 @@ PittyTiger:
 Poseidon Group: {}
 Putter Panda:
   defense-evasion:
+    T1027: description
     T1055.001: description
+    T1562.001: description
   persistence:
     T1547.001: description
   privilege-escalation:
     T1055.001: description
+    T1547.001: description
 RTM:
   command-and-control:
     T1102.001: description
+    T1219: description
   defense-evasion:
     T1574.001: description
   execution:
     T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
   persistence:
     T1547.001: description
+    T1574.001: description
   privilege-escalation:
     T1547.001: description
+    T1574.001: description
 Rancor:
   command-and-control:
+    T1071.001: description
     T1105: description
   defense-evasion:
     T1218.007: description
   execution:
+    T1053.005: description
+    T1059.003: description
     T1059.005: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   persistence:
@@ -1570,32 +3518,98 @@ Rocke: {}
 Sandworm Team:
   collection:
     T1005: description
+    T1056.001: description
   command-and-control:
+    T1071.001: description
+    T1090: description
+    T1102.002: description
     T1105: description
+    T1132.001: description
+    T1219: description
+    T1571: description
   credential-access:
+    T1003.001: description
+    T1040: description
+    T1056.001: description
     T1110.003: description
+    T1555.003: description
   defense-evasion:
+    T1027: description
     T1027.002: description
+    T1036.005: description
+    T1070.004: description
+    T1078: description
+    T1078.002: description
+    T1140: description
+    T1218.011: description
+    T1562.002: description
   discovery:
+    T1016: description
     T1018: description
+    T1033: description
+    T1040: description
+    T1049: description
+    T1082: description
+    T1083: description
+    T1087.002: description
+    T1087.003: description
   execution:
+    T1047: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   exfiltration:
     T1041: description
   impact:
     T1485: description
+    T1491.002: description
+    T1499: description
+    T1561.002: description
   initial-access:
+    T1078: description
     T1078.002: description
+    T1133: description
+    T1195.002: description
+    T1199: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
+    T1021.002: description
     T1570: description
   persistence:
+    T1078: description
+    T1078.002: description
+    T1098: description
+    T1133: description
+    T1136: description
+    T1136.002: description
     T1505.001: description
+    T1505.003: description
   privilege-escalation:
+    T1078: description
     T1078.002: description
   reconnaissance:
+    T1589.002: description
+    T1589.003: description
     T1590.001: description
+    T1591.002: description
+    T1592.002: description
+    T1593: description
+    T1594: description
+    T1595.002: description
+    T1598.003: description
   resource-development:
+    T1583.001: description
+    T1583.004: description
+    T1584.005: description
     T1585.001: description
+    T1585.002: description
+    T1587.001: description
+    T1588.002: description
+    T1588.006: description
 Scarlet Mimic:
   defense-evasion:
     T1036.002: description
@@ -1604,11 +3618,19 @@ SideCopy:
   command-and-control:
     T1105: description
   defense-evasion:
+    T1036.005: description
+    T1218.005: description
     T1574.002: description
   discovery:
+    T1016: description
+    T1082: description
     T1518: description
+    T1518.001: description
+    T1614: description
   execution:
     T1059.005: description
+    T1106: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   persistence:
@@ -1619,63 +3641,118 @@ SideCopy:
     T1598.002: description
   resource-development:
     T1584.001: description
+    T1608.001: description
 Sidewinder:
   collection:
+    T1074.001: description
     T1119: description
   command-and-control:
+    T1071.001: description
     T1105: description
   defense-evasion:
+    T1027: description
+    T1036.005: description
+    T1218.005: description
     T1574.002: description
   discovery:
+    T1016: description
+    T1033: description
+    T1057: description
+    T1082: description
+    T1083: description
     T1124: description
+    T1518: description
+    T1518.001: description
   execution:
+    T1059.001: description
+    T1059.005: description
+    T1059.007: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   exfiltration:
     T1020: description
   initial-access:
     T1566.001: description
+    T1566.002: description
   persistence:
+    T1547.001: description
     T1574.002: description
   privilege-escalation:
+    T1547.001: description
     T1574.002: description
   reconnaissance:
     T1598.002: description
+    T1598.003: description
 Silence:
   collection:
+    T1113: description
     T1125: description
   command-and-control:
+    T1090.002: description
     T1105: description
+    T1571: description
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1027: description
+    T1036.005: description
+    T1055: description
     T1070.004: description
+    T1078: description
+    T1112: description
+    T1218.001: description
+    T1553.002: description
   discovery:
     T1018: description
   execution:
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.007: description
+    T1072: description
+    T1106: description
+    T1204.002: description
     T1569.002: description
   initial-access:
     T1078: description
+    T1566.001: description
   lateral-movement:
     T1021.001: description
+    T1072: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1547.001: description
   privilege-escalation:
+    T1053.005: description
+    T1055: description
     T1078: description
+    T1547.001: description
   resource-development:
     T1588.002: description
 Silent Librarian: {}
 SilverTerrier:
   command-and-control:
     T1071.001: description
+    T1071.002: description
+    T1071.003: description
 Sowbug:
   collection:
     T1039: description
+    T1056.001: description
+    T1560.001: description
   credential-access:
     T1003: description
+    T1056.001: description
   defense-evasion:
     T1036.005: description
   discovery:
+    T1082: description
     T1083: description
+    T1135: description
   execution:
     T1059.003: description
 Stealth Falcon: {}
@@ -1683,17 +3760,23 @@ Stolen Pencil:
   collection:
     T1056.001: description
   credential-access:
+    T1003.001: description
+    T1040: description
+    T1056.001: description
     T1552.001: description
+    T1555.003: description
   defense-evasion:
     T1078.003: description
   discovery:
     T1040: description
   initial-access:
     T1078.003: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
   persistence:
     T1078.003: description
+    T1176: description
   privilege-escalation:
     T1078.003: description
 Strider:
@@ -1702,6 +3785,7 @@ Strider:
   credential-access:
     T1556.002: description
   defense-evasion:
+    T1556.002: description
     T1564.005: description
   persistence:
     T1556.002: description
@@ -1710,6 +3794,7 @@ Suckfly:
     T1003: description
   defense-evasion:
     T1078: description
+    T1553.002: description
   discovery:
     T1046: description
   execution:
@@ -1722,37 +3807,76 @@ Suckfly:
     T1078: description
 TA459:
   execution:
+    T1059.001: description
     T1059.005: description
+    T1203: description
+    T1204.002: description
   initial-access:
     T1566.001: description
 TA505:
   command-and-control:
+    T1071.001: description
     T1105: description
+    T1568.001: description
   credential-access:
     T1552.001: description
+    T1555.003: description
   defense-evasion:
+    T1027: description
+    T1027.002: description
     T1055.001: description
+    T1078.002: description
+    T1112: description
+    T1140: description
+    T1218.007: description
+    T1218.011: description
+    T1553.002: description
+    T1553.005: description
+    T1562.001: description
   discovery:
+    T1069: description
     T1087.003: description
   execution:
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.007: description
+    T1106: description
     T1204.001: description
+    T1204.002: description
+    T1559.002: description
   impact:
     T1486: description
   initial-access:
     T1078.002: description
+    T1566.001: description
+    T1566.002: description
   persistence:
     T1078.002: description
   privilege-escalation:
     T1055.001: description
+    T1078.002: description
   resource-development:
+    T1583.001: description
+    T1588.001: description
     T1588.002: description
+    T1608.001: description
 TA551:
   command-and-control:
+    T1071.001: description
     T1105: description
+    T1132.001: description
+    T1568.002: description
   defense-evasion:
+    T1027: description
     T1027.003: description
+    T1036: description
+    T1218.005: description
+    T1218.010: description
+    T1218.011: description
   execution:
     T1059.003: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   reconnaissance:
@@ -1762,36 +3886,84 @@ TEMP.Veles:
     T1074.001: description
   command-and-control:
     T1065: description
+    T1571: description
   credential-access:
     T1003.001: description
   defense-evasion:
+    T1027.005: description
+    T1036.005: description
     T1070.004: description
+    T1070.006: description
+    T1078: description
   execution:
+    T1053.005: description
     T1059.001: description
   initial-access:
     T1078: description
+    T1133: description
   lateral-movement:
     T1021.001: description
+    T1021.004: description
   persistence:
+    T1053.005: description
     T1078: description
+    T1133: description
+    T1505.003: description
+    T1546.012: description
   privilege-escalation:
+    T1053.005: description
     T1078: description
+    T1546.012: description
   resource-development:
+    T1583.003: description
     T1588.002: description
 Taidoor: {}
 TeamTNT:
   collection:
     T1074.001: description
   command-and-control:
+    T1071: description
+    T1071.001: description
+    T1102: description
     T1105: description
+    T1219: description
   credential-access:
     T1552.001: description
+    T1552.004: description
+    T1552.005: description
   defense-evasion:
+    T1014: description
+    T1027: description
     T1027.002: description
+    T1036: description
+    T1036.005: description
+    T1070.002: description
+    T1070.003: description
+    T1070.004: description
+    T1140: description
+    T1222.002: description
+    T1562.001: description
+    T1562.004: description
+    T1610: description
   discovery:
+    T1007: description
+    T1016: description
     T1046: description
+    T1049: description
+    T1057: description
+    T1082: description
+    T1083: description
+    T1120: description
+    T1518.001: description
+    T1613: description
   execution:
+    T1059.001: description
     T1059.003: description
+    T1059.004: description
+    T1204.003: description
+    T1569: description
+    T1609: description
+    T1610: description
   exfiltration:
     T1048: description
   impact:
@@ -1801,20 +3973,34 @@ TeamTNT:
   lateral-movement:
     T1021.004: description
   persistence:
+    T1098.004: description
+    T1133: description
+    T1136.001: description
     T1543.002: description
+    T1543.003: description
+    T1547.001: description
   privilege-escalation:
     T1543.002: description
+    T1543.003: description
+    T1547.001: description
+    T1611: description
   reconnaissance:
     T1595.001: description
+    T1595.002: description
   resource-development:
     T1583.001: description
+    T1587.001: description
+    T1608.001: description
 The White Company:
   defense-evasion:
     T1027.002: description
+    T1070.004: description
   discovery:
     T1124: description
+    T1518.001: description
   execution:
     T1203: description
+    T1204.002: description
   initial-access:
     T1566.001: description
 Threat Group-1314:
@@ -1822,9 +4008,11 @@ Threat Group-1314:
     T1078.002: description
   execution:
     T1059.003: description
+    T1072: description
   initial-access:
     T1078.002: description
   lateral-movement:
+    T1021.002: description
     T1072: description
   persistence:
     T1078.002: description
@@ -1832,29 +4020,87 @@ Threat Group-1314:
     T1078.002: description
 Threat Group-3390:
   collection:
+    T1005: description
+    T1056.001: description
+    T1074.001: description
+    T1074.002: description
+    T1119: description
     T1560.002: description
   command-and-control:
+    T1071.001: description
     T1105: description
   credential-access:
     T1003.001: description
+    T1003.002: description
+    T1003.004: description
+    T1056.001: description
+    T1555.005: description
   defense-evasion:
+    T1027: description
+    T1027.002: description
+    T1055.012: description
+    T1070.004: description
+    T1070.005: description
+    T1078: description
+    T1112: description
+    T1140: description
+    T1548.002: description
+    T1562.002: description
+    T1574.001: description
     T1574.002: description
   discovery:
+    T1012: description
+    T1016: description
+    T1018: description
+    T1033: description
     T1046: description
+    T1049: description
+    T1087.001: description
   execution:
+    T1047: description
     T1053.002: description
+    T1059.001: description
+    T1059.003: description
+    T1203: description
+    T1204.002: description
   exfiltration:
     T1030: description
+    T1567.002: description
   initial-access:
+    T1078: description
+    T1133: description
     T1189: description
+    T1190: description
+    T1195.002: description
+    T1199: description
+    T1566.001: description
   lateral-movement:
+    T1021.006: description
     T1210: description
   persistence:
     T1053.002: description
+    T1078: description
+    T1133: description
+    T1505.003: description
+    T1543.003: description
+    T1547.001: description
+    T1574.001: description
+    T1574.002: description
   privilege-escalation:
     T1053.002: description
+    T1055.012: description
+    T1068: description
+    T1078: description
+    T1543.003: description
+    T1547.001: description
+    T1548.002: description
+    T1574.001: description
+    T1574.002: description
   resource-development:
     T1588.002: description
+    T1608.001: description
+    T1608.002: description
+    T1608.004: description
 Thrip:
   command-and-control:
     T1219: description
@@ -1868,105 +4114,276 @@ Tonto Team:
   collection:
     T1056.001: description
   command-and-control:
+    T1090.002: description
     T1105: description
   credential-access:
     T1003: description
+    T1056.001: description
   defense-evasion:
     T1574.001: description
   discovery:
     T1069.001: description
+    T1135: description
   execution:
+    T1059.001: description
     T1059.006: description
+    T1203: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   lateral-movement:
     T1210: description
   persistence:
     T1505.003: description
+    T1574.001: description
   privilege-escalation:
     T1068: description
+    T1574.001: description
 Transparent Tribe:
   command-and-control:
     T1568: description
   defense-evasion:
+    T1027: description
+    T1036.005: description
     T1564.001: description
   execution:
+    T1059.005: description
+    T1203: description
     T1204.001: description
+    T1204.002: description
   initial-access:
     T1189: description
+    T1566.001: description
+    T1566.002: description
   resource-development:
+    T1583.001: description
     T1584.001: description
+    T1608.004: description
 Tropic Trooper:
   collection:
     T1119: description
   command-and-control:
+    T1071.001: description
+    T1071.004: description
     T1105: description
+    T1132.001: description
+    T1573: description
+    T1573.002: description
   defense-evasion:
+    T1027: description
+    T1027.003: description
+    T1036.005: description
+    T1055.001: description
+    T1070.004: description
     T1078.003: description
+    T1140: description
+    T1221: description
+    T1564.001: description
+    T1574.002: description
   discovery:
+    T1016: description
+    T1033: description
+    T1046: description
+    T1049: description
+    T1057: description
+    T1082: description
+    T1083: description
+    T1135: description
     T1518: description
+    T1518.001: description
   execution:
     T1059.003: description
+    T1106: description
+    T1203: description
+    T1204.002: description
   exfiltration:
+    T1020: description
     T1052.001: description
   initial-access:
     T1078.003: description
+    T1091: description
+    T1566.001: description
   lateral-movement:
     T1091: description
   persistence:
     T1078.003: description
+    T1505.003: description
+    T1543.003: description
+    T1547.001: description
+    T1547.004: description
+    T1574.002: description
   privilege-escalation:
+    T1055.001: description
     T1078.003: description
+    T1543.003: description
+    T1547.001: description
+    T1547.004: description
+    T1574.002: description
 Turla:
   collection:
+    T1005: description
+    T1025: description
     T1213: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
+    T1071.003: description
+    T1090: description
     T1090.001: description
+    T1102: description
+    T1102.002: description
+    T1105: description
   credential-access:
+    T1110: description
     T1555.004: description
   defense-evasion:
+    T1027: description
+    T1027.005: description
+    T1055: description
+    T1055.001: description
     T1078.003: description
+    T1112: description
+    T1134.002: description
+    T1140: description
+    T1553.006: description
+    T1562.001: description
   discovery:
+    T1007: description
+    T1012: description
+    T1016: description
+    T1016.001: description
+    T1018: description
+    T1049: description
+    T1057: description
+    T1069.001: description
+    T1069.002: description
+    T1082: description
+    T1083: description
+    T1087.001: description
+    T1087.002: description
+    T1120: description
     T1124: description
+    T1201: description
+    T1518.001: description
+    T1615: description
   execution:
+    T1059.001: description
+    T1059.003: description
+    T1059.005: description
+    T1059.006: description
+    T1059.007: description
+    T1106: description
     T1204.001: description
   exfiltration:
     T1567.002: description
   initial-access:
     T1078.003: description
+    T1189: description
+    T1566.002: description
   lateral-movement:
+    T1021.002: description
     T1570: description
   persistence:
     T1078.003: description
+    T1546.003: description
+    T1546.013: description
+    T1547.001: description
+    T1547.004: description
   privilege-escalation:
+    T1055: description
+    T1055.001: description
+    T1068: description
     T1078.003: description
+    T1134.002: description
+    T1546.003: description
+    T1546.013: description
+    T1547.001: description
+    T1547.004: description
   resource-development:
+    T1583.006: description
+    T1584.003: description
     T1584.004: description
+    T1584.006: description
+    T1587.001: description
+    T1588.001: description
+    T1588.002: description
 UNC2452:
   collection:
+    T1005: description
+    T1074.002: description
     T1114.002: description
+    T1560.001: description
   command-and-control:
+    T1071.001: description
     T1090.001: description
+    T1105: description
+    T1568: description
   credential-access:
     T1003.006: description
+    T1552.004: description
+    T1555: description
+    T1558.003: description
+    T1606.001: description
+    T1606.002: description
   defense-evasion:
+    T1027: description
+    T1036: description
+    T1036.004: description
+    T1036.005: description
+    T1070: description
     T1070.004: description
+    T1070.006: description
+    T1078: description
+    T1140: description
+    T1218.011: description
+    T1484.002: description
+    T1550: description
+    T1550.004: description
+    T1553.002: description
+    T1562.001: description
+    T1562.002: description
+    T1562.004: description
   discovery:
+    T1016.001: description
     T1018: description
+    T1057: description
+    T1069: description
+    T1082: description
+    T1083: description
+    T1087: description
+    T1482: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
     T1059.003: description
   exfiltration:
     T1048.002: description
   initial-access:
+    T1078: description
+    T1133: description
+    T1190: description
     T1195.002: description
   lateral-movement:
+    T1021.006: description
+    T1550: description
     T1550.004: description
   persistence:
-    T1098.002: description
-  privilege-escalation:
+    T1053.005: description
     T1078: description
+    T1098.001: description
+    T1098.002: description
+    T1133: description
+    T1546.003: description
+  privilege-escalation:
+    T1053.005: description
+    T1078: description
+    T1484.002: description
+    T1546.003: description
   resource-development:
+    T1583.001: description
     T1584.001: description
+    T1587.001: description
 Volatile Cedar:
   command-and-control:
     T1105: description
@@ -1975,14 +4392,21 @@ Volatile Cedar:
   persistence:
     T1505.003: description
   reconnaissance:
+    T1595.002: description
     T1595.003: description
 WIRTE:
   command-and-control:
+    T1071.001: description
     T1105: description
+    T1571: description
   defense-evasion:
+    T1036.005: description
+    T1140: description
     T1218.010: description
   execution:
+    T1059.001: description
     T1059.005: description
+    T1204.002: description
   initial-access:
     T1566.001: description
   resource-development:
@@ -1994,12 +4418,16 @@ Whitefly:
     T1003.001: description
   defense-evasion:
     T1027: description
+    T1036.005: description
+    T1574.001: description
   execution:
     T1059: description
+    T1204.002: description
   persistence:
     T1574.001: description
   privilege-escalation:
     T1068: description
+    T1574.001: description
   resource-development:
     T1588.002: description
 Windigo:
@@ -2008,6 +4436,8 @@ Windigo:
   command-and-control:
     T1090: description
   discovery:
+    T1082: description
+    T1083: description
     T1518: description
   execution:
     T1059: description
@@ -2015,14 +4445,27 @@ Windigo:
     T1189: description
 Windshift:
   command-and-control:
+    T1071.001: description
     T1105: description
   defense-evasion:
+    T1027: description
+    T1036: description
     T1036.001: description
   discovery:
+    T1033: description
+    T1057: description
+    T1082: description
     T1518: description
+    T1518.001: description
   execution:
+    T1047: description
+    T1059.005: description
     T1204.001: description
+    T1204.002: description
   initial-access:
+    T1189: description
+    T1566.001: description
+    T1566.002: description
     T1566.003: description
   persistence:
     T1547.001: description
@@ -2032,68 +4475,172 @@ Winnti Group:
   command-and-control:
     T1105: description
   defense-evasion:
+    T1014: description
     T1553.002: description
   discovery:
     T1057: description
+    T1083: description
   resource-development:
     T1583.001: description
 Wizard Spider:
   collection:
     T1074: description
+    T1557.001: description
   command-and-control:
     T1071.001: description
   credential-access:
+    T1003.002: description
+    T1003.003: description
+    T1557.001: description
     T1558.003: description
   defense-evasion:
+    T1027: description
+    T1036.004: description
     T1055.001: description
+    T1070.004: description
+    T1078: description
+    T1078.002: description
+    T1112: description
+    T1222.001: description
+    T1553.002: description
+    T1562.001: description
   discovery:
+    T1016: description
     T1018: description
+    T1033: description
+    T1082: description
+    T1087.002: description
+    T1135: description
+    T1518.001: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
+    T1059.003: description
+    T1204.001: description
+    T1204.002: description
     T1569.002: description
   exfiltration:
+    T1041: description
     T1048.003: description
   impact:
     T1489: description
   initial-access:
+    T1078: description
     T1078.002: description
+    T1133: description
+    T1566.001: description
+    T1566.002: description
   lateral-movement:
     T1021.001: description
+    T1021.002: description
+    T1021.006: description
+    T1210: description
+    T1570: description
   persistence:
+    T1053.005: description
+    T1078: description
     T1078.002: description
+    T1133: description
+    T1543.003: description
+    T1547.001: description
+    T1547.004: description
   privilege-escalation:
+    T1053.005: description
     T1055.001: description
+    T1078: description
+    T1078.002: description
+    T1543.003: description
+    T1547.001: description
+    T1547.004: description
   resource-development:
+    T1588.002: description
     T1588.003: description
 ZIRCONIUM: {}
 admin@338:
   defense-evasion:
     T1036.005: description
   discovery:
+    T1007: description
+    T1016: description
+    T1049: description
     T1069.001: description
+    T1082: description
+    T1083: description
+    T1087.001: description
   execution:
     T1059.003: description
+    T1203: description
+    T1204.002: description
   initial-access:
     T1566.001: description
 menuPass:
   collection:
+    T1005: description
     T1039: description
+    T1056.001: description
+    T1074.001: description
+    T1074.002: description
+    T1119: description
+    T1560: description
+    T1560.001: description
   command-and-control:
+    T1090.002: description
     T1105: description
+    T1568.001: description
   credential-access:
+    T1003.002: description
     T1003.003: description
+    T1003.004: description
+    T1056.001: description
   defense-evasion:
+    T1027: description
+    T1036: description
+    T1036.003: description
+    T1036.005: description
+    T1055.012: description
+    T1070.003: description
+    T1070.004: description
+    T1078: description
+    T1140: description
+    T1218.004: description
+    T1553.002: description
+    T1574.001: description
     T1574.002: description
   discovery:
+    T1016: description
+    T1018: description
     T1046: description
+    T1049: description
+    T1083: description
+    T1087.002: description
   execution:
+    T1047: description
+    T1053.005: description
+    T1059.001: description
     T1059.003: description
+    T1106: description
+    T1204.002: description
   initial-access:
     T1078: description
+    T1190: description
+    T1199: description
+    T1566.001: description
   lateral-movement:
     T1021.001: description
+    T1021.004: description
+    T1210: description
   persistence:
+    T1053.005: description
+    T1078: description
+    T1574.001: description
     T1574.002: description
   privilege-escalation:
+    T1053.005: description
+    T1055.012: description
+    T1078: description
+    T1574.001: description
     T1574.002: description
   resource-development:
+    T1583.001: description
     T1588.002: description
