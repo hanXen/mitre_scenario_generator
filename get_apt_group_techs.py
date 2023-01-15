@@ -1,13 +1,14 @@
-import requests
+import os.path
 import json
 import yaml
-import os.path
-from stix2.utils import get_type_from_id
+import requests
 from stix2 import Filter
 from stix2 import MemoryStore
+from stix2.utils import get_type_from_id
 
+
+G_FILE_PATH = './data/apt_group.json'
 G_TECH_FILE_PATH = 'apt_group_techs.json'
-G_FILE_PATH = 'apt_group.json'
 
 
 def get_data_from_branch(domain, branch="master"):
